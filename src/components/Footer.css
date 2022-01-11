@@ -1,0 +1,133 @@
+.footerContainer {
+	background-color: rgba(34, 13, 13, 0.5);
+	padding: 4rem 0 2rem 0;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+/* 
+.footerSub {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+	margin-bottom: 24px;
+	padding: 24px;
+	color: white;
+}
+
+.footerSub > p {
+	font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.footerSubHead {
+	margin-bottom: 24px;
+	font-size: 24px;
+}
+
+.footerSubText {
+	margin-bottom: 24px;
+	font-size: 20px;
+} */
+
+.footerLinks {
+	width: 100%;
+	max-width: 1000px;
+	display: flex;
+	justify-content: center;
+}
+.footerLinkWrapper {
+	display: flex;
+}
+.footerlinkItems {
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	margin: 16px;
+	text-align: left;
+	width: 160px;
+	box-sizing: border-box;
+}
+.footerlinkItems > h4 {
+	color: white;
+}
+.footerlinkItems > h2 {
+	margin-bottom: 16px;
+}
+
+.footerlinkItems > h2 {
+	color: white;
+}
+
+.footerlinkItems a {
+	color: white;
+	text-decoration: none;
+	margin-bottom: 8px;
+}
+
+.footerlinkItems a:hover {
+	color: rgba(255, 255, 255, 0.705);
+	transition: 0.3s ease-out;
+}
+
+.socialIconLink {
+	color: white;
+	font-size: 24px;
+}
+
+.socialMedia {
+	max-width: 1000px;
+	width: 100%;
+}
+
+.socialWrap {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	width: 90%;
+	max-width: 1000px;
+	margin: 40px auto 0 auto;
+}
+
+.socialIcons {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	width: 100px;
+	margin-bottom: -30px;
+}
+
+.socialLogo {
+	color: white;
+	justify-self: start;
+	margin-left: 20px;
+	cursor: pointer;
+	text-decoration: none;
+	font-size: 2rem;
+	display: flex;
+	align-self: center;
+	margin-bottom: -30px;
+}
+
+.websiteRights {
+	color: white;
+	margin-bottom: -30px;
+}
+@media screen and (max-width: 845px) {
+	.footerLinks {
+		padding-top: 2rem;
+	}
+
+	.footerLinkWrapper {
+		flex-direction: column;
+	}
+
+	.socialMedia {
+		flex-direction: column;
+	}
+}
+
+@media screen and (max-width: 768px) {
+}

@@ -1,0 +1,70 @@
+.text > h1 {
+	color: white;
+	font-size: 70px;
+	margin-top: -70px;
+}
+.text > p {
+	text-align: center;
+	margin-top: 8px;
+	padding-left: 20%;
+	padding-right: 20%;
+	color: white;
+	font-size: 32px;
+	font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.text2 > h1 {
+	color: white;
+	font-size: 70px;
+	margin-top: 40px;
+}
+.text2 > p {
+	text-align: center;
+	margin-top: 8px;
+	padding-left: 20%;
+	padding-right: 20%;
+	color: white;
+	font-size: 32px;
+	font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+@media screen and (max-width: 1200px) {
+	.text > h1 {
+		color: white;
+		font-size: 40px;
+		margin-top: -60px;
+	}
+	.text2 > h1 {
+		color: white;
+		font-size: 40px;
+		margin-top: 90px;
+	}
+	.text > p {
+		color: white;
+		font-size: 25px;
+	}
+	.text2 > p {
+		color: white;
+		font-size: 25px;
+	}
+}
+
+@media screen and (max-width: 768px) {
+	.text > h1 {
+		color: white;
+		font-size: 40px;
+		margin-top: -100px;
+	}
+	.text2 > h1 {
+		color: white;
+		font-size: 40px;
+		margin-top: 40px;
+	}
+	.text > p {
+		color: white;
+		font-size: 19px;
+	}
+	.text2 > p {
+		color: white;
+		font-size: 19px;
+	}
+}
