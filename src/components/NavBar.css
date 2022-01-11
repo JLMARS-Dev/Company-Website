@@ -104,9 +104,9 @@
 	.navLinks {
 		position: relative;
 		/* For the Responsive in the PC  */
-		/* bottom: 40vh; */
+		bottom: 40vh;
 		/* For actual phones */
-		top: 40vh;
+		/* top: 40vh; */
 		width: 100%;
 		display: table;
 	}
