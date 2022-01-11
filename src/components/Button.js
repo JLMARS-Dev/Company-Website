@@ -1,6 +1,4 @@
 import './Button.css'
-import { Link } from 'react-router-dom'
-import { Children } from 'react'
 
 const STYLES = ['primaryBtn', 'secondaryBtn']
 
