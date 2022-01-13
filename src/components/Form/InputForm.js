@@ -48,7 +48,6 @@ function InputForm(props) {
 						<textarea id='comments' required rows='5' ref={commentsInputRef}></textarea>
 					</div>
 					<div className='controlBtn'>
-						{/* <button>Meet Up</button> */}
 						<Button>Submit</Button>
 					</div>
 				</form>
