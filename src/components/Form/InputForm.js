@@ -1,7 +1,7 @@
 import './InputForm.css'
 import { useRef } from 'react'
-import { Button } from '../Button'
-import Background from '../Background'
+import { Button } from '../Button/Button'
+import Background from '../Background/Background'
 
 function InputForm(props) {
 	const subjectInputRef = useRef()

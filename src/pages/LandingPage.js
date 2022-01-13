@@ -1,7 +1,7 @@
-import NavBar from '../components/NavBar'
-import Footer from '../components/Footer'
-import BoxWrap from '../components/LandingBoxes/BoxWrap'
-import Background from '../components/Background'
+import NavBar from '../components/Navbar/NavBar'
+import Footer from '../components/Footer/Footer'
+import LWrap from '../components/Boxes/LWrap'
+import Background from '../components/Background/Background'
 import './LandingPage.css'
 
 function LandingPage() {
@@ -17,7 +17,7 @@ function LandingPage() {
 					</p>
 				</div>
 			</Background>
-			<BoxWrap wrapperText='Core Team' />
+			<LWrap wrapperText='Core Team' />
 			<Footer />
 		</div>
 	)

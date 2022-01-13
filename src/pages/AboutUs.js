@@ -1,8 +1,8 @@
-import NavBar from '../components/NavBar'
-import Background from '../components/Background'
+import NavBar from '../components/Navbar/NavBar'
+import Background from '../components/Background/Background'
 import './LandingPage.css'
-import Footer from '../components/Footer'
-import BoxWrap from '../components/AboutUsBox/BoxWrap'
+import Footer from '../components/Footer/Footer'
+import AWrap from '../components/Boxes/AWrap'
 function AboutUs() {
 	return (
 		<div>
@@ -25,7 +25,7 @@ function AboutUs() {
 					</p>
 				</div>
 			</Background>
-			<BoxWrap wrapperText="Projects We've Worked On" />
+			<AWrap wrapperText="Projects We've Worked On" />
 			<Footer />
 		</div>
 	)

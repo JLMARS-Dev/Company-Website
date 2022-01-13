@@ -1,6 +1,6 @@
 import { useNavigate } from 'react-router-dom'
-import Footer from '../components/Footer'
-import NavBar from '../components/NavBar'
+import Footer from '../components/Footer/Footer'
+import NavBar from '../components/Navbar/NavBar'
 import InputForm from '../components/Form/InputForm'
 function Form() {
 	const navigate = useNavigate()

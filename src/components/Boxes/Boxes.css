@@ -32,7 +32,6 @@ h1 {
 	margin-bottom: 1rem;
 	border-radius: 10px;
 }
-
 .boxLink {
 	display: flex;
 	flex-flow: column;
@@ -94,7 +93,7 @@ h1 {
 	padding: 20px 30px 30px;
 }
 
-.boxText {
+.boxName {
 	color: #252e48;
 	font-size: 18px;
 	line-height: 24px;
@@ -114,7 +113,6 @@ h1 {
 		margin-bottom: 1rem;
 		border-radius: 10px;
 	}
-
 	.picWrap::after {
 		font-size: 9px;
 		padding: 3px 2px;
@@ -129,7 +127,6 @@ h1 {
 		margin-bottom: 1rem;
 		border-radius: 10px;
 	}
-
 	.picWrap::after {
 		font-size: 9px;
 		padding: 3px 2px;
