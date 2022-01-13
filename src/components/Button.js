@@ -1,6 +1,6 @@
 import './Button.css'
 
-const STYLES = ['primaryBtn', 'secondaryBtn']
+const STYLES = ['primaryBtn', 'secondaryBtn', 'button-64', 'button-78']
 
 const SIZES = ['mediumBtn', 'largeBtn']
 export const Button = ({ children, type, onClick, buttonStyle, buttonSize }) => {
