@@ -20,8 +20,8 @@ function LBoxWrap(props) {
 					</ul>
 
 					<ul className='boxItem'>
-						<Box src='' to={{ pathname: '//github.com/sherica123' }} name='Sherica' label='Front-End Dev' />
-						<Box src='images/p6.jpg' to={{ pathname: '//github.com/MahmoudAoude' }} name='Lucky Charm' label='Back-End Dev' />
+						<Box src='images/Areesha.jpeg' to={{ pathname: '//github.com/ara114' }} name='Areesha Arain' label='Back-End Dev' />
+						<Box src='images/p6.jpg' to={{ pathname: '//github.com/sherica123' }} name='Lucky Charm' label='Back-End Dev' />
 						<Box src='images/p7.jpg' to={{ pathname: '//github.com/MahmoudAoude' }} name='Snickers' label='Reporter' />
 						<Box src='images/p8.jpg' to={{ pathname: '//github.com/MahmoudAoude' }} name='Twix' label='Whatever' />
 					</ul>
