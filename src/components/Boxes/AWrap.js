@@ -8,13 +8,13 @@ function ABWrap(props) {
 			<div className='boxContainer'>
 				<div className='boxWrapper'>
 					<ul className='boxItem'>
-						<Box src='images/p4.jpg' to='/About' name='Morgan Freeman' label='Lead Devleoper' />
-						<Box src='images/p5.jpg' to='/About' name='Leonardo Dicaprio' label='Manager' />
+						<Box src='images/p4.jpg' to='/About' name='Project 1' label='Lead Devleoper' />
+						<Box src='images/p5.jpg' to='/About' name='Project 2' label='Manager' />
 					</ul>
 
 					<ul className='boxItem'>
-						<Box src='images/p5.jpg' to='/About' name='Tom Holland' label='Back-End Dev' />
-						<Box src='images/p6.jpg' to='/About' name='Lucky Charm' label='Back-End Dev' />
+						<Box src='images/p5.jpg' to='/About' name='Project 3' label='Back-End Dev' />
+						<Box src='images/p6.jpg' to='/About' name='Project 4' label='Back-End Dev' />
 					</ul>
 				</div>
 			</div>
