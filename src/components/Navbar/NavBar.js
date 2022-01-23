@@ -1,4 +1,4 @@
-import { useState } from 'react'
+import { useState, useEffect } from 'react'
 import { Link } from 'react-router-dom'
 import './NavBar.css'
 function NavBar() {
@@ -6,14 +6,37 @@ function NavBar() {
 	const [click, setClick] = useState(false)
 	const handleClick = () => setClick(!click)
 	const closeMobileMenu = () => setClick(false)
+	const [stickyClass, setStickyClass] = useState('')
+
+	const stickNavbar = () => {
+		if (window !== undefined) {
+			let windowHeight = window.scrollY
+			// window height changed for the demo
+			windowHeight > 0 ? setStickyClass('sticky-nav') : setStickyClass('')
+		}
+	}
+
+	useEffect(() => {
+		window.addEventListener('scroll', stickNavbar)
+		return () => window.removeEventListener('scroll', stickNavbar)
+	}, [])
+
+	const scrollToTop = () => {
+		window.scrollTo({
+			top: 0,
+			behavior: 'smooth',
+		})
+	}
 
 	return (
 		<header>
-			<nav className='navbar'>
+			<nav className={`navbar ${stickyClass}`}>
 				<div className='navbarContainer'>
 					<Link to='/' className='navbarLogo' onClick={closeMobileMenu}>
 						{/* This is the logo with the name of the website, which can be found on the left */}
-						JLMARS <i className='fas fa-globe-europe'></i>
+						<div onClick={scrollToTop}>
+							JLMARS <i className='fas fa-globe-europe'></i>
+						</div>
 					</Link>
 
 					<div className='menuIcon' onClick={handleClick}>
@@ -22,7 +45,7 @@ function NavBar() {
 					</div>
 					{/* This helps to open a shadow box with the nav bar when its a phone or a small display. */}
 					<ul className={click ? 'navMenu active' : 'navMenu'}>
-						<li className={'navItem'}>
+						<li className={'navItem'} onClick={scrollToTop}>
 							{/* These are all the items in the nav bar */}
 							<Link to='/' className='navLinks' onClick={closeMobileMenu}>
 								Home

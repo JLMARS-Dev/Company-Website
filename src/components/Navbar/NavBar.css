@@ -29,6 +29,17 @@
 	align-items: center;
 }
 
+.sticky-nav {
+	display: flex;
+	justify-content: center;
+	position: fixed;
+	top: 0;
+	left: 0;
+	max-width: 100%;
+	/* background-color: #fff; */
+	width: 100%;
+}
+
 .fa-globe-europe {
 	margin-left: 0.5rem;
 	font-size: 1.8rem;
