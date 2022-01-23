@@ -44,7 +44,10 @@
 	margin-left: 0.5rem;
 	font-size: 1.8rem;
 }
-
+.compName {
+	font-size: 1.4rem;
+	font-family: 'Rammetto One', cursive;
+}
 .navMenu {
 	display: grid;
 	grid-template-columns: repeat(4, auto);
@@ -67,6 +70,7 @@
 	text-decoration: none;
 	padding: 0.1rem 1rem;
 	height: 100%;
+	font-family: 'Mogra', cursive;
 }
 
 .navLinks:hover {
@@ -87,25 +91,28 @@
 }
 
 @media screen and (max-width: 960px) {
+	.navbar {
+		background: linear-gradient(90deg, rgb(211, 131, 131) 0%, rgb(40, 40, 65) 100%);
+	}
 	.NavbarItems {
 		position: relative;
 	}
 
 	.navMenu {
-		display: flex;
+		display: block;
 		flex-direction: column;
 		width: 100%;
-		max-width: 100vw;
-		height: 100vh;
+		max-width: 100%;
+		height: 5000%;
 		position: absolute;
-		top: 80px;
-		left: -100vw;
+		top: 100%;
+		left: -100%;
 		opacity: 1;
 		transition: all 0.5s ease;
 	}
 
 	.navMenu.active {
-		background: #242222;
+		background: url('../../../public/images/img-home.jpg');
 		left: 0;
 		opacity: 1;
 		transition: all 0.5s ease;
@@ -115,7 +122,7 @@
 	.navLinks {
 		position: relative;
 		/* For the Responsive in the PC  */
-		bottom: 40vh;
+		bottom: -430%;
 		/* For actual phones */
 		/* top: 40vh; */
 		width: 100%;

@@ -1,6 +1,5 @@
 .boxes {
 	padding: 2rem;
-	background: #fff;
 }
 
 h1 {
@@ -12,7 +11,7 @@ h1 {
 	flex-flow: column;
 	align-items: center;
 	max-width: 1120px;
-	width: 90%;
+
 	margin: 0 auto;
 }
 
@@ -62,7 +61,7 @@ h1 {
 	bottom: 0;
 	margin-left: 10px;
 	padding: 6px 8px;
-	max-width: calc((100%) - 60px);
+	max-width: 100%;
 	font-size: 12px;
 	font-weight: 700;
 	color: #fff;
@@ -114,8 +113,11 @@ h1 {
 		border-radius: 10px;
 	}
 	.picWrap::after {
-		font-size: 9px;
+		font-size: 7px;
 		padding: 3px 2px;
+	}
+	.boxInfo {
+		padding: 15px 25px 15px;
 	}
 }
 
@@ -128,17 +130,19 @@ h1 {
 		border-radius: 10px;
 	}
 	.picWrap::after {
-		font-size: 9px;
-		padding: 3px 2px;
+		padding: 1px 1px;
 	}
 }
 
 @media only screen and (max-width: 600px) {
-	.boxInfo > h5 {
+	.boxName {
 		font-size: 10px;
+		line-height: 12px;
 	}
 	.picWrap::after {
-		font-size: 8px;
 		padding: 1px 1px;
+	}
+	.boxInfo {
+		padding: 10px 20px 10px;
 	}
 }

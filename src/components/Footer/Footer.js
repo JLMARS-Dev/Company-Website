@@ -37,11 +37,10 @@ function Footer() {
 					</Link>
 
 					<small className='websiteRights'>JLMARS © 2022 </small>
-					<div className='socialIcons'>
-						<Link className='socialGithub' to={{ pathname: '//github.com/JLMARS-Dev' }} target='_blank' aria-label='Github'>
-							<i className='fab fa-github' />
-						</Link>
-					</div>
+
+					<Link className='socialGithub' to={{ pathname: '//github.com/JLMARS-Dev' }} target='_blank' aria-label='Github'>
+						<i className='fab fa-github' />
+					</Link>
 				</div>
 			</section>
 		</div>

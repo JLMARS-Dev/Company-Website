@@ -65,7 +65,7 @@
 	margin: 40px auto 0 auto;
 }
 
-.socialIcons {
+.socialGithub {
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
@@ -90,8 +90,12 @@
 	margin-bottom: -30px;
 }
 @media screen and (max-width: 845px) {
+	.socialLogo {
+		font-size: 20px;
+	}
+
 	.footerLinks {
-		padding-top: 2rem;
+		padding-top: 1rem;
 	}
 
 	.footerLinkWrapper {
@@ -100,5 +104,17 @@
 
 	.socialMedia {
 		flex-direction: column;
+	}
+	.websiteRights {
+		font-size: 10px;
+		margin-bottom: -40px;
+	}
+}
+@media screen and (max-width: 420px) {
+	.socialWrap {
+		width: 100%;
+	}
+	.fa-github {
+		margin-left: 60px;
 	}
 }

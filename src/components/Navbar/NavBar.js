@@ -34,7 +34,7 @@ function NavBar() {
 				<div className='navbarContainer'>
 					<Link to='/' className='navbarLogo' onClick={closeMobileMenu}>
 						{/* This is the logo with the name of the website, which can be found on the left */}
-						<div onClick={scrollToTop}>
+						<div className='compName' onClick={scrollToTop}>
 							JLMARS <i className='fas fa-globe-europe'></i>
 						</div>
 					</Link>
