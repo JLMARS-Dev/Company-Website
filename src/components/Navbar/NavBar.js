@@ -1,13 +1,15 @@
 import { useState, useEffect } from 'react'
 import { Link } from 'react-router-dom'
 import './NavBar.css'
+import { disableBodyScroll, enableBodyScroll } from 'body-scroll-lock'
+
 function NavBar() {
 	// These states help in closing the shadow box
 	const [click, setClick] = useState(false)
 	const handleClick = () => setClick(!click)
 	const closeMobileMenu = () => setClick(false)
 	const [stickyClass, setStickyClass] = useState('')
-
+	click ? disableBodyScroll(document) : enableBodyScroll(document)
 	const stickNavbar = () => {
 		if (window !== undefined) {
 			let windowHeight = window.scrollY
