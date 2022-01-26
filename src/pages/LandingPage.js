@@ -1,8 +1,8 @@
 import NavBar from '../components/Navbar/NavBar'
 import Footer from '../components/Footer/Footer'
-import LWrap from '../components/Boxes/LWrap'
 import Background from '../components/Background/Background'
 import './LandingPage.css'
+import ABWrap from '../components/Boxes/AWrap'
 
 function LandingPage() {
 	return (
@@ -17,7 +17,7 @@ function LandingPage() {
 					</p>
 				</div>
 			</Background>
-			<LWrap wrapperText='Core Team' />
+			<ABWrap wrapperText="Projects We've Worked On" />
 			<Footer />
 		</div>
 	)

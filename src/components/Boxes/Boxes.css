@@ -1,5 +1,6 @@
 .boxes {
 	padding: 2rem;
+
 }
 
 h1 {
@@ -11,17 +12,13 @@ h1 {
 	flex-flow: column;
 	align-items: center;
 	max-width: 1120px;
-
 	margin: 0 auto;
 }
 
 .boxWrapper {
 	position: relative;
 	margin: 50px 0 45px;
-}
-
-.boxItem {
-	margin-bottom: 24px;
+	width: 90%;
 }
 
 .boxItem {

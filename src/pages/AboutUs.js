@@ -2,7 +2,7 @@ import NavBar from '../components/Navbar/NavBar'
 import Background from '../components/Background/Background'
 import './LandingPage.css'
 import Footer from '../components/Footer/Footer'
-import AWrap from '../components/Boxes/AWrap'
+import LBoxWrap from '../components/Boxes/LWrap'
 function AboutUs() {
 	return (
 		<div>
@@ -19,7 +19,7 @@ function AboutUs() {
 					</p>
 				</div>
 			</Background>
-			<AWrap wrapperText="Projects We've Worked On" />
+			<LBoxWrap wrapperText='Core Team' />
 			<Footer />
 		</div>
 	)
