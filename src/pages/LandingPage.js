@@ -12,8 +12,9 @@ function LandingPage() {
 				<div className='text'>
 					<h1>Welcome To JLMARS</h1>
 					<p>
-						This website is the offical company website where you can find our various projects, meet our team and contact us for any
-						inquiries.
+						Our team design and build tailor-made web and mobile software solutions that helps your business grow to its full potential.
+						The people here at JLMARS believe in the talents, ideas and skills of our employees and allow everyone to grow to their full
+						potential successfully.
 					</p>
 				</div>
 			</Background>

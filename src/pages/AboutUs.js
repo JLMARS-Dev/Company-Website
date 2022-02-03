@@ -11,11 +11,9 @@ function AboutUs() {
 				<div className='text'>
 					<h1>WHO WE ARE</h1>
 					<p>
-						We are a Software Development Company that focuses on developing Web applications, which are compatible with both computers and
-						mobile phones.{<br />} We consist of 8 people, which are divided to 2 groups. The Front End team which consists of Mahmoud, Mohammed Sadiq, Lahenshah, 
-						Jishnu and Sherica, this team is always assigend with the design of the applications and the front end development of them. The Back End team consists of
-						Mohammed Sadiq, Svedha, Aresha, Ryan and Mahmoud. They are always working on the backend aspect of the projects, which allows the projects to
-						have functionalities.
+						Our mission is to help our customers bring their visions to reality, be it anything from an online multiplayer web game to a
+						real-time collaborative platform. We help you achieve value in your ideas, assisting you in every part of the way to determine
+						the most proper solution to your problems.
 					</p>
 				</div>
 			</Background>

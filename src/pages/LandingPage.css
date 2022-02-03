@@ -12,9 +12,27 @@
 	padding-right: 20%;
 	color: white;
 	font-size: 32px;
+
 	font-family: 'EB Garamond', serif;
 }
-
+@media screen and (max-width: 1876px) {
+	.text > p {
+		padding-left: 15%;
+		padding-right: 15%;
+	}
+}
+@media screen and (max-width: 1310px) {
+	.text > p {
+		padding-left: 8%;
+		padding-right: 8%;
+	}
+}
+@media screen and (max-width: 870px) {
+	.text > p {
+		padding-left: 5%;
+		padding-right: 5%;
+	}
+}
 @media screen and (max-width: 1200px) {
 	.text > h1 {
 		color: white;
@@ -38,5 +56,11 @@
 	.text > p {
 		color: white;
 		font-size: 19px;
+	}
+}
+@media screen and (max-width: 452px) {
+	.text > p {
+		padding-left: 2%;
+		padding-right: 2%;
 	}
 }
