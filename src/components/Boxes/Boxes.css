@@ -1,6 +1,5 @@
 .boxes {
 	padding: 2rem;
-
 }
 
 h1 {
@@ -109,15 +108,40 @@ h1 {
 		margin-bottom: 1rem;
 		border-radius: 10px;
 	}
-	.picWrap::after {
-		font-size: 7px;
-		padding: 3px 2px;
-	}
+
 	.boxInfo {
-		padding: 15px 25px 15px;
+		padding: 10px 10px 10px;
 	}
 }
-
+@media only screen and (max-width: 653px) {
+	.boxItem {
+		display: flex;
+		flex: 0.5;
+		margin: 0 0.5rem;
+		margin-bottom: 1rem;
+		border-radius: 10px;
+	}
+	.picWrap::after {
+		padding: 1px 1px;
+		font-size: 10px;
+	}
+	.boxName {
+		font-size: 14px;
+		line-height: 18px;
+	}
+}
+@media only screen and (max-width: 600px) {
+	.boxName {
+		font-size: 10px;
+		line-height: 12px;
+	}
+	.picWrap::after {
+		padding: 1px 1px;
+	}
+	.boxInfo {
+		padding: 10px 20px 10px;
+	}
+}
 @media only screen and (max-width: 580px) {
 	.boxItem {
 		display: flex;
@@ -130,16 +154,64 @@ h1 {
 		padding: 1px 1px;
 	}
 }
-
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 513px) {
+	.picWrap::after {
+		padding: 1px 1px;
+		font-size: 8px;
+	}
+}
+@media only screen and (max-width: 430px) {
+	.boxes {
+		padding: 1rem;
+	}
 	.boxName {
-		font-size: 10px;
-		line-height: 12px;
+		font-size: 7px;
+		line-height: 10px;
 	}
 	.picWrap::after {
 		padding: 1px 1px;
 	}
 	.boxInfo {
 		padding: 10px 20px 10px;
+	}
+}
+
+@media only screen and (max-width: 373px) {
+	.boxes {
+		padding: 0rem;
+	}
+	.boxName {
+		font-size: 9px;
+		line-height: 10px;
+	}
+	.picWrap::after {
+		padding: 0.5px 0.5px;
+		font-size: 6px;
+	}
+	.boxInfo {
+		padding: 8px 15px 8px;
+	}
+}
+
+@media only screen and (max-width: 360px) {
+	.boxName {
+		font-size: 9px;
+		line-height: 14px;
+	}
+	.picWrap::after {
+		padding: 1px 1px;
+	}
+	.boxInfo {
+		padding: 6px 10px 6px;
+	}
+}
+@media only screen and (max-width: 305px) {
+	.picWrap::after {
+		padding: 2px 2px;
+		font-size: 5px;
+	}
+	.boxName {
+		font-size: 8px;
+		line-height: 12px;
 	}
 }
