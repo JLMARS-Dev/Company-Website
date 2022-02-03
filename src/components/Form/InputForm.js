@@ -28,6 +28,7 @@ function InputForm(props) {
 
 	return (
 		<Background>
+			<h1 className ='formTitle'>If you have any inquires please fill the form below.</h1>
 			<div className='card'>
 				<form className='control' onSubmit={submitHandler}>
 					<div className='control'>

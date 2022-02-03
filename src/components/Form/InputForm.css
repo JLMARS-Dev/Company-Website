@@ -9,6 +9,15 @@
 	box-shadow: 0 2px 8px rgb(255, 255, 255);
 }
 
+.formTitle {
+	color: white;
+	font-size: 30px;
+	font-family: 'Aclonica', sans-serif;
+	padding-bottom: 2%;
+	padding-right: 35%;
+	padding-left: 35%;
+}
+
 .control {
 	margin-bottom: 0.5rem;
 }
@@ -29,4 +38,57 @@
 	border: 1px solid #ccc;
 	padding: 0.25rem;
 	width: 155%;
+}
+
+@media screen and (max-width: 1406px) {
+	.formTitle {
+		padding-right: 30%;
+		padding-left: 30%;
+	}
+	
+}
+@media screen and (max-width: 1050px) {
+	.formTitle {
+		padding-right: 28%;
+		padding-left: 28%;
+	}
+	
+}
+@media screen and (max-width: 1040px) {
+	.formTitle {
+		padding-right: 25%;
+		padding-left: 25%;
+	}
+	
+}
+
+
+@media screen and (max-width: 840px) {
+	.formTitle {
+		padding-right: 20%;
+		padding-left: 20%;
+	}
+	
+}
+
+@media screen and (max-width: 700px) {
+	.formTitle {
+		padding-right: 15%;
+		padding-left: 15%;
+	}
+	
+}
+@media screen and (max-width: 602px) {
+	.formTitle {
+		padding-right: 10%;
+		padding-left: 10%;
+	}
+	
+}
+@media screen and (max-width: 526px) {
+	.formTitle {
+		padding-right: 5%;
+		padding-left: 5%;
+	}
+	
 }
