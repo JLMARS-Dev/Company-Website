@@ -14,7 +14,6 @@ function Footer() {
 						<h2>Find Us</h2>
 						<h4>JLMARS@hotmail.com</h4>
 						<h4>JLMARS@gmail.com</h4>
-						<h4>0555555523</h4>
 						<Link to={{ pathname: '//github.com/JLMARS-Dev' }} target='_blank'>
 							GitHub
 						</Link>
